@@ -1,6 +1,6 @@
 <template>
   <div class=''>
-    dashboard
+      new
   </div>
 </template>
 
@@ -11,6 +11,8 @@ export default {
     return {}
   },
   components: {},
+  created(){},
+  mounted(){},
   methods: {}
 }
 </script>

@@ -110,7 +110,7 @@ export default {
           this.login()
             .then(res => {
               console.log(res)
-              this.$router.push({ path: this.redirect || '/', query: this.otherQuery })
+              this.$router.push('/')
               this.loading = false
             })
             .catch(() => {

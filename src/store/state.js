@@ -1,3 +1,5 @@
-export default {
+import { routes } from "../router/index";
 
+export default {
+    routes: routes
 }
