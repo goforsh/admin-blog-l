@@ -1,19 +1,14 @@
 <template>
-  <div class='l-new'>
-      <EditArticle></EditArticle>
-  </div>
+  <div class=''>comsg</div>
 </template>
 
 <script>
-import EditArticle from '../../components/EditArticle';
 export default {
   name: '',
   data(){
     return {}
   },
-  components: {
-    EditArticle
-  },
+  components: {},
   created(){},
   mounted(){},
   methods: {}

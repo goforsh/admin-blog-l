@@ -1,13 +1,8 @@
 <template>
   <div class='l-layout'>
-      <nav class="l-layout__nav">
-          <NavBar></NavBar>
-      </nav>
+      <NavBar class="l-layout__nav"></NavBar>
       <main class="l-layout__main">
-          <header class="l-layout__header">
-
-          </header>
-          <router-view class="l-layout__views"></router-view>
+          <router-view></router-view>
       </main>
   </div>
 </template>
@@ -30,18 +25,13 @@ export default {
 <style lang='scss' scoped>
 .l-layout {
     display: flex;
+    width: 100%;
+    height: 100vh;
     &__nav {
         flex: 0 0 200px;
+        height: 100%;
     }
     &__main {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-    }
-    &__header {
-        flex: 0 0 50px;
-    }
-    &__views {
         flex: 1;
     }
 
